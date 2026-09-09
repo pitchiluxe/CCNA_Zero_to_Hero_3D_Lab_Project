@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.23.0 — GitHub Release, Favicon, and Screenshots
+
+- Generated `favicon.ico` and touch icons from a custom SVG network icon.
+- Added icon links (`favicon.ico`, `apple-touch-icon`) to `index.html`.
+- Captured screenshots of landing, dashboard, 3D lab room, and contact pages.
+- Added a Screenshots section to `README.md` so images render on GitHub.
+- Initialized git repository, created `https://github.com/pitchiluxe/CCNA_Zero_to_Hero_3D_Lab_Project`, and pushed.
+
 ## 0.22.0 — Landing Page & Contact Page
 
 - Added `framer-motion` and `react-helmet-async` dependencies.
