@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.24.0 — Vercel / React Router Fix
+
+- Added `AppLayout` with `Outlet` and fixed React Router v6 nested routing for `/app` and `/app/lab/:labId`.
+- Updated `Dashboard` lab links to `/app/lab/:labId`.
+- Updated `LabView` back-to-dashboard links to `/app`.
+
 ## 0.23.0 — GitHub Release, Favicon, and Screenshots
 
 - Generated `favicon.ico` and touch icons from a custom SVG network icon.
