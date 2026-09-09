@@ -29,6 +29,13 @@ Then open `http://localhost:5173` for the landing page, `http://localhost:5173/a
 npm run build
 ```
 
+## Screenshots
+
+![Landing page](screenshots/landing.png)
+![App dashboard](screenshots/app-dashboard.png)
+![3D lab room](screenshots/lab-room.png)
+![Contact page](screenshots/contact.png)
+
 ## Project Files
 
 - `CLAUDE.md` — persistent implementation rules for Claude.
