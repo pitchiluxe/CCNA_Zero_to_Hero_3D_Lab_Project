@@ -65,7 +65,7 @@ export function LabView() {
       <div className="mx-auto max-w-2xl py-12 text-center">
         <h2 className="mb-2 text-2xl font-bold">Lab not found</h2>
         <p className="mb-6 text-slate-500 dark:text-slate-400">The lab you are looking for does not exist.</p>
-        <Button onClick={() => navigate('/')}>Back to dashboard</Button>
+        <Button onClick={() => navigate('/app')}>Back to dashboard</Button>
       </div>
     );
   }
@@ -111,7 +111,7 @@ export function LabView() {
     <div className="mx-auto max-w-7xl space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-3">
-          <Link to="/">
+          <Link to="/app">
             <Button variant="ghost" size="sm">
               <ChevronLeft className="mr-1 h-4 w-4" /> Dashboard
             </Button>

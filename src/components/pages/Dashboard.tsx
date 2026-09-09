@@ -121,7 +121,7 @@ export function Dashboard() {
                       <p className="text-xs text-slate-500 dark:text-slate-400 line-clamp-2">{lab.summary}</p>
                     </div>
                     <div className="flex flex-shrink-0 flex-col gap-2">
-                      <Link to={`/lab/${lab.id}`}>
+                      <Link to={`/app/lab/${lab.id}`}>
                         <Button size="sm" variant="primary" className="px-2">
                           <Play className="h-4 w-4" />
                         </Button>
@@ -155,7 +155,7 @@ export function Dashboard() {
                 const isCompleted = phaseLabs.length > 0 && done === phaseLabs.length;
 
                 const firstLab = phaseLabs[0];
-                const link = firstLab ? `/lab/${firstLab.id}` : '#';
+                const link = firstLab ? `/app/lab/${firstLab.id}` : '#';
 
                 return (
                   <Link
